@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 20;
+}
+.login-container {
+  background-color: transparent;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(126, 32, 37, 0.1);
+  width: 300px;
+  border: 1px solid black;
+}
+label {
+  color: rgb(98, 192, 216);
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+  color: rgb(160, 52, 33);
+  margin-bottom: 20px;
+}
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0px;
+  border: 1px solid #368873;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: #1d20db;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #6ba5d4;
+}
+html{
+  background:url(logo.ht.html.jpg);
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+#errorMessage {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+          /*bagian mata*/
+  
+          .submit-btn:hover {
+          
+          
+          background-color: #CC7B4E;
+          
+          
+          }
+          
+          .password-container {
+              position: relative;
+          }
+          
+          .toggle-password {
+              position: absolute;
+              right: 5px;
+              top: 15px;
+              background: none;
+              border: none;
+              cursor: pointer;
+          }
+          
+          .toggle-password .fa {
+              font-size: 18px;
+              color: #aaa;
+          }
+          
+          .toggle-password .fa-eye-slash {
+              color: #333;
+          }
+  
+
+  
